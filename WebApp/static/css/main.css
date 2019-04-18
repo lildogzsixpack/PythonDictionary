@@ -1,0 +1,31 @@
+ul{
+	list-style-type:none;
+	}
+
+.ui-autocomplete { 
+	max-height: 190px; overflow-y: scroll; overflow-x: hidden;
+	}
+
+.ui-helper-hidden-accessible{
+	display: none;
+	}
+.ui-menu {
+  	position: absolute;
+  	border: 1px solid #d4d4d4;
+  	border-bottom: none;
+  	border-top: none;
+  	top: 100%;
+  	left: 0;
+  	right: 0;
+	}
+
+.ui-menu-item{
+	width: 300px;
+  	cursor: pointer;
+  	background-color: #fff;
+  	border-bottom: 1px solid #d4d4d4; 
+	}
+
+.ui-menu-item div:hover{
+	background-color: DodgerBlue; 
+	}
